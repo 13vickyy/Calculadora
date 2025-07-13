@@ -28,7 +28,7 @@ El objetivo de este proyecto es afianzar conceptos de:
 ✅ Funcionalidad básica implementada  
 
 🛠 Posibles mejoras futuras:  
-- Validar que la opción elegida sea válida (1 a 4)  
+- Al terminar el programa el usr tenga la posibilidad de volver a usarlo
 - Manejar la división por cero  
 - Agregar un menú para volver a operar sin cerrar el programa  
 
