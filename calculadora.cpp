@@ -14,6 +14,15 @@ int main () {
         << "4) : \n";
 cin >> opcion;
 
+if (opcion >= 1 && opcion <= 4)
+{
+    //continua el programa
+;}
+else{
+    cout << "Opcion invalida" << endl; 
+}
+ 
+
 float num_1, num_2;
 
 cout << "Ingrese su primer numero: " << endl;
