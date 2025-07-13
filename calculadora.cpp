@@ -7,21 +7,26 @@ int main () {
  cout << "Seleccione una operacion: " << endl;
 
  int opcion;
- cout << "Menu de opciones: \n"
-        << "1) + \n" 
-        << "2) - \n"
-        << "3) * \n"
-        << "4) : \n";
-cin >> opcion;
 
-if (opcion >= 1 && opcion <= 4)
-{
-    //continua el programa
+ while (true){
+    cout << "Menu de opciones: \n"
+            << "1) + \n" 
+            << "2) - \n"
+            << "3) * \n"
+            << "4) : \n";
+    cin >> opcion;
+
+    if (opcion >= 1 && opcion <= 4)
+    {
+        break; //continua el programa
+    ;}
+    else{
+        cout << "Opcion invalida" << endl; 
+        cin.ignore();  // Ignora cualquier caracter pendiente en el buffer
+        cout << "Presione Enter para volver al menu";
+        cin.get();     // Espera a que el usuario presione Enter
+        ;}
 ;}
-else{
-    cout << "Opcion invalida" << endl; 
-}
- 
 
 float num_1, num_2;
 
